@@ -27,13 +27,13 @@ public class Rps
                          System.out.println("Computer picked rock 🪨");
                          System.out.println("This round is a tie");
                      }
-                     if(computer == 2)
+                     else if(computer == 2)
                      {
                          System.out.println("Computer picked paper 📄");
                          System.out.println("Computer wins this round!");
                          comp++;
                      }
-                     if(computer == 3)
+                     else if(computer == 3)
                      {
                          System.out.println("Computer picked scissors ✄");
                          System.out.println("You win this round!");
@@ -48,12 +48,12 @@ public class Rps
                          System.out.println("You win this round!");
                          user++;   
                      }
-                     if(computer == 2)
+                     else if(computer == 2)
                      {
                          System.out.println("Computer picked paper 📄");
                          System.out.println("This round is a tie");   
                      }
-                     if(computer == 3)
+                     else if(computer == 3)
                      {
                          System.out.println("Computer picked scissors ✄");
                          System.out.println("Computer wins this round!");
@@ -68,13 +68,13 @@ public class Rps
                          System.out.println("Computer wins this round!");
                          comp++;   
                      }
-                     if(computer == 2)
+                     else if(computer == 2)
                      {
                          System.out.println("Computer picked paper 📄");
                          System.out.println("You win this round!");
                          user++;
                      }
-                     if(computer == 3)
+                     else if(computer == 3)
                      {
                          System.out.println("Computer picked scissors ✄");
                          System.out.println("This round is a tie");   
