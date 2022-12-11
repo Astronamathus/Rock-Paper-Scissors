@@ -8,10 +8,10 @@ public class Rps
          int round;
          int comp = 0;
          int user = 0;
-         int computer = (int)Math.floor(Math.random()*(3-1+1)+1);
          Scanner sc = new Scanner(System.in);
          for(int i = 1; i<=3; i++)
          {  
+            int computer = (int)Math.floor(Math.random()*(3-1+1)+1);  // Picks a random number between 1 and 3
             System.out.println("------------------------------------------------------------");
             System.out.println("ROUND "+i);
             System.out.println("------------------------------------------------------------");
