@@ -20,7 +20,7 @@ public class Rps
             choice = (int)c;
             switch(choice)
             {
-                 case 114:
+                 case 114:    //114 is the ASCII value of 'r'
                      System.out.println("You picked rock 🪨");
                      if(computer == 1)
                      {    
@@ -40,7 +40,7 @@ public class Rps
                          user++;   
                      }
                      break;
-                 case 112:
+                 case 112:    //112 is the ASCII value of 'p'
                      System.out.println("You picked paper 📄");
                      if(computer == 1)
                      {
@@ -60,7 +60,7 @@ public class Rps
                          comp++;   
                      }
                      break;
-                 case 115:
+                 case 115:      //115 is the ASCII value of 's'
                      System.out.println("You picked scissors ✄");
                      if(computer == 1)
                      {
@@ -84,7 +84,7 @@ public class Rps
                      System.out.println("Please enter only r, p or s");
             }
             System.out.println(" ");
-            System.out.println("🆂🅲🅾🆁🅴:");
+            System.out.println("ⓈⒸⓄⓇⒺ:");
             System.out.print("You: ");
             System.out.println(user);
             System.out.print("Computer: ");
